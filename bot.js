@@ -34,5 +34,5 @@ if(guild.systemChannel){ // Checking if it's not null
 
 
 
-client.login(auth.token);
+client.login(process.env.BOT_TOKEN);
 
