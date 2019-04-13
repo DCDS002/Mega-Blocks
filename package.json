@@ -1,0 +1,7 @@
+{
+ "name": "Mega Blocks",
+ "version": "1.0.0",
+ "description": "Autorski bot serwera Mega Blocks.",
+ "main": "bot.js",
+ "author": "DCDS002"
+}
