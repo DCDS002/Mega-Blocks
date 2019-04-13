@@ -4,4 +4,10 @@
  "description": "Autorski bot serwera Mega Blocks.",
  "main": "bot.js",
  "author": "DCDS002"
-}
+ "scripts": {
+	"start": "node bot.js"
+ },
+ "dependencies": {
+	"discord.js": "11.1.0"
+	}
+}	
