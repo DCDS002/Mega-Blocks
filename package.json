@@ -1,13 +1,12 @@
-{
- "name": "Mega Blocks",
- "version": "1.0.0",
- "description": "Autorski bot serwera Mega Blocks.",
- "main": "bot.js",
- "author": "DCDS002"
+  "name": "MegaBlocks",
+  "version": "1.0.0",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "bot.js",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
   "scripts": {
-"start": "node bot.js"
- },
- "dependencies": {
-	"discord.js": "1.0"
-	}
-}	
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+}
