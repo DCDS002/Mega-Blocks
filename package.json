@@ -1,8 +1,29 @@
 {
-  "name": "megablocks",
-  "description": "bot serwera megabocks",
-  "version": "1.0.0",
-  "engines": {
-    "node": "11.4.2"
+  "name": "MegaBlocks",
+  "version": "0.0.1",
+  "description": "A bot for Discord",
+  "author": "DCDS002",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCDS002/Mega-Block"
+  },
+  "bugs": {
+    "url": "https://github.com/DCDS002/Mega-Block/issues"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordapp"
+  ],
+  "license": "MIT",
+  "main": "bot.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "discord.js": "*",
+    "youtube-node": "1.2.x",
+    "query-string": "3.*",
+    "request": ">=2.58.0"
   }
 }
